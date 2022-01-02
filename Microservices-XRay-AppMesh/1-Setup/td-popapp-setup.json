@@ -9,6 +9,7 @@
               "value": "9002"
           }
         ],
+        "cpu": 32,
         "memory": 128,
         "image": "gkoenig/popapp:latest",
         "essential": true,
@@ -23,7 +24,7 @@
   ],
   "family": "td-popapp",
   "requiresCompatibilities": [
-      "EC2"
+      "FARGATE"
   ],
   "networkMode": "awsvpc"
 }
