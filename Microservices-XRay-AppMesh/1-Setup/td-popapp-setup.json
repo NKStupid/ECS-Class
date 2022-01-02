@@ -1,6 +1,6 @@
 {
-  "taskRoleArn": "arn:aws:iam::<<your-account-id>>:role/ecsTaskRole",
-  "executionRoleArn": "arn:aws:iam::<<your-account-id>>:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws-cn:iam::734176943427:role/ecsTaskRole",
+  "executionRoleArn": "arn:aws-cn:iam::734176943427:role/ecsTaskExecutionRole",
   "containerDefinitions": [
       {
         "environment": [
