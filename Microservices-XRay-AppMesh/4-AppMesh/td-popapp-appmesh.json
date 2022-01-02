@@ -4,15 +4,15 @@
       "FARGATE"
   ],
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::<<your-account-id>>:role/ecsTaskExecutionRole",
-  "taskRoleArn": "arn:aws:iam::<<your-account-id>>:role/ecsTaskRole",
+  "executionRoleArn": "arn:aws-cn:iam::734176943427:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws-cn:iam::734176943427:role/ecsTaskRole",
   "containerDefinitions": [
       {
         "logConfiguration": {
           "logDriver": "awslogs",
           "options": {
             "awslogs-group": "/ecs/microservice-demo",
-            "awslogs-region": "eu-central-1",
+            "awslogs-region": "cn-north-1",
             "awslogs-stream-prefix": "ecs"
           }
         },
@@ -38,7 +38,7 @@
           "logDriver": "awslogs",
           "options": {
             "awslogs-group": "/ecs/microservice-demo",
-            "awslogs-region": "eu-central-1",
+            "awslogs-region": "cn-north-1",
             "awslogs-stream-prefix": "pop/xray"
           }
         },
