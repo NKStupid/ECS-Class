@@ -28,6 +28,7 @@
                   "value": "80"
               }
           ],
+          "cpu": 32,
           "memory": 128,
           "image": "gkoenig/popapp:latest",
           "essential": true,
